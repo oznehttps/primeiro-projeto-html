@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/imagens/destiny.ico" type="image/x-icon">
+
+    <title>Destiny 2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/video destiny.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" 
+            src="./src/imagens/image-destiny-logo-white-rwby-fanon-wiki-fandom-5.png" alt="logo destiny 2">
+        </a> 
+        <nav class="menu">
+            <ul class="menu">
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#">DETALHES</a></li>
+                <li><a href="https://www.bungie.net/pt-br/Guide/Destiny2">GUIA</a></li>
+                <li><a href="https://www.bungie.net/7/pt-br/Destiny/Buy">JOGAR AGORA</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/destiny_2_logo.png" alt="logo body destiny 2">
+            <p style="font-family: 'Roboto'"
+            class="descricao">Uma galáxia enorme em eterno crescimento com novas temporadas, eventos e expansões, sempre oferecendo novos desafios para enfrentar e uma coleção de itens para conquistar. 
+            </p>
+            <button class="botao-video">TRAILER</button>
+        </div>
+        <img class="destiny"
+        src="./src/imagens/imagem destiny.png"/> 
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/HKzG7INo0RI" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
